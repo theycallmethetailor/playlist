@@ -72,6 +72,7 @@ div.row:nth-child(2) {
   max-width: 200px;
   max-height: 200px;
   margin: 20px;
+  box-shadow: 10px 10px 8px #888888;
 }
 
 .albumn-info-contain {
@@ -86,6 +87,13 @@ div.row:nth-child(2) {
   border-radius: 5px;
   background-color: white;
   padding: 5px;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.albumn-info span:hover {
+  background-color: black;
+  color: white;
+
 }
 
 .ofBUttons {
