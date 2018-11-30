@@ -1,0 +1,97 @@
+.myNavColor {
+  background-color: #9A9B8D;
+  color: white;
+}
+
+nav.myNavColor {
+  min-height: 150px;
+}
+
+.myNavColor p {
+  vertical-align: text-bottom;
+  font-size: 50px;
+}
+
+.newColor {
+  background-color: white;
+}
+
+.trackpage {
+  background-color: #333527;
+  border: none;
+  min-width: 150px;
+  max-width: 150px;
+}
+
+.album-container {
+  overflow-y: hidden;
+  /* overflow-x: scroll; */
+  max-height: 250px;
+  max-width: 800px;
+  display:flex;
+  flex-direction: row;
+  /* border-radius: 10px; */
+}
+
+.album-container::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.album-container::-webkit-scrollbar
+{
+	width: 12px;
+  border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.album-container::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: gray;
+}
+
+
+.taller {
+  min-height: 100px;
+  align-items: flex-end;
+}
+
+div.row:nth-child(2) {
+  margin-top: 20px;
+  /* border-radius: 10px; */
+  border: solid black 2px;
+  min-height: 200px;
+  /* background-color: gray; */
+}
+
+.album-container img {
+  /* display: inline-block; */
+  max-width: 200px;
+  max-height: 200px;
+  margin: 20px;
+}
+
+.albumn-info-contain {
+  background-color: #EEEEEE;
+}
+
+.albumn-info span {
+  color: black;
+  font-size: 18px;
+  cursor: crosshair;
+  border: solid black 2px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px;
+}
+
+.ofBUttons {
+  padding-bottom: 50px;
+}
+
+.footerBigger {
+  min-height: 50px;
+}
