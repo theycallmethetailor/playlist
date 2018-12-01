@@ -33,20 +33,20 @@ nav.myNavColor {
   /* border-radius: 10px; */
 }
 
-.album-container::-webkit-scrollbar-track
+.album-container::-webkit-scrollbar-track, .albumn-info-contain::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	background-color: #F5F5F5;
 }
 
-.album-container::-webkit-scrollbar
+.album-container::-webkit-scrollbar, .albumn-info-contain::-webkit-scrollbar
 {
 	width: 12px;
   border-radius: 10px;
 	background-color: #F5F5F5;
 }
 
-.album-container::-webkit-scrollbar-thumb
+.album-container::-webkit-scrollbar-thumb, .albumn-info-contain::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
@@ -73,13 +73,31 @@ div.row:nth-child(2) {
   max-height: 200px;
   margin: 20px;
   box-shadow: 10px 10px 8px #888888;
+  border-top: 10px solid rgba(0,0,0,0);
+}
+
+.album-container img:hover {
+  box-shadow: 10px 20px 15px gray;
+  border-top: 0 solid rgba(0,0,0,0);
+}
+
+.album-container img:active {
+  background-color: white;
+  opacity: 0.5;
 }
 
 .albumn-info-contain {
   background-color: #EEEEEE;
+  overflow-y: scroll;
+  max-height: 200px;
 }
 
-.albumn-info span {
+/* .albumn-info {
+  overflow-y: scroll;
+  max-height: 200px;
+} */
+
+.track-list li {
   color: black;
   font-size: 18px;
   cursor: crosshair;
@@ -88,9 +106,10 @@ div.row:nth-child(2) {
   background-color: white;
   padding: 5px;
   box-shadow: 10px 10px 8px #888888;
+  min-width: 400px;
 }
 
-.albumn-info span:hover {
+.albumn-info li:hover {
   background-color: black;
   color: white;
 

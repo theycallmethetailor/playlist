@@ -1,0 +1,89 @@
+{
+  "results": [
+    "The Police: Ghost in the Machine": [{
+        "name": "intro",
+        "length": "12:02"
+      },
+      {
+        "name": "track two",
+        "length": "4:11"
+      },
+      {
+        "name": "track three",
+        "length": "9:19"
+      },
+      {
+        "name": "track x",
+        "length": "3:58"
+      }
+    ],
+    "Black Uhuru: Red": [{
+        "name": "intro",
+        "length": "12:02"
+      },
+      {
+        "name": "track two",
+        "length": "4:11"
+      },
+      {
+        "name": "track three",
+        "length": "9:19"
+      },
+      {
+        "name": "track x",
+        "length": "3:58"
+      }
+    ],
+    "Pink Floyd: The Division Bell": [{
+        "name": "stuff",
+        "length": "12:22"
+      },
+      {
+        "name": "track dos",
+        "length": "2:47"
+      },
+      {
+        "name": "track tres",
+        "length": "9:01"
+      },
+      {
+        "name": "track v",
+        "length": "3:34"
+      }
+    ],
+    "Michael Jackson: Thriller": [{
+        "name": "intro",
+        "length": "12:02"
+      },
+      {
+        "name": "track two",
+        "length": "4:11"
+      },
+      {
+        "name": "track three",
+        "length": "9:19"
+      },
+      {
+        "name": "track x",
+        "length": "3:58"
+      }
+    ],
+    "Adele: 21": [{
+        "name": "intro",
+        "length": "12:02"
+      },
+      {
+        "name": "track two",
+        "length": "4:11"
+      },
+      {
+        "name": "track three",
+        "length": "9:19"
+      },
+      {
+        "name": "track x",
+        "length": "3:58"
+      }
+    ]
+  ]
+}
