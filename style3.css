@@ -59,12 +59,9 @@ nav.myNavColor {
   align-items: flex-end;
 }
 
-div.row:nth-child(2) {
-  margin-top: 20px;
-  /* border-radius: 10px; */
-  border: solid black 2px;
-  min-height: 200px;
-  /* background-color: gray; */
+.album-itself, .albumn-tracks, .actual-playlist {
+  border: solid 1px black;
+  min-height: 300px;
 }
 
 .album-container img {
@@ -86,18 +83,9 @@ div.row:nth-child(2) {
   opacity: 0.5;
 }
 
-.albumn-info-contain {
-  background-color: #EEEEEE;
-  overflow-y: scroll;
-  max-height: 200px;
-}
 
-/* .albumn-info {
-  overflow-y: scroll;
-  max-height: 200px;
-} */
 
-.track-list li {
+.album-itself span {
   color: black;
   font-size: 18px;
   cursor: crosshair;
@@ -109,7 +97,7 @@ div.row:nth-child(2) {
   min-width: 400px;
 }
 
-.albumn-info li:hover {
+.album-itself span:hover {
   background-color: black;
   color: white;
 

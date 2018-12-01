@@ -34,10 +34,8 @@ document.addEventListener("DOMContentLoaded", function() {
         newAlbumn.appendChild(newAlbumnImage);
 
         //THIS ADDS AN EVENT LISTENER TO EACH ALBUMN COVER ELEMENT THAT APPENDS THE TRACKLIST TO THE TRACKLIST DIV ON THE PAGE
-
         newAlbumnImage.addEventListener("click", function(e) {
-          counter ++
-
+          counter ++;
           newTrack = document.createElement('li');
           newTrack.className = "m-2 track d-block";
           newTrack.textContent =   `${artist}: ${title}`;
@@ -61,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
       //THIS CLEARS BOTH THE LIST ON THE PAGE AND THE TRACKLIST TO BE POSTED TO THE PAGE
       clearButton.addEventListener("click", function(e) {
         e.preventDefault();
-        albumnInfo.innerHTML = "";
+        trackListParent.innerHTML = "";
         trackList = [];
       })
 

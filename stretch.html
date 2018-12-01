@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>Playlist Page</title>
   <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/solar/bootstrap.min.css" rel="stylesheet" integrity="sha384-h5kYMLFNMyLXdVYK3MKZeOfXMdU6XqV1do5KyjoYZGlW1FJOj+5qr9u1d7NNCH4N" crossorigin="anonymous">
-  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style3.css">
 </head>
 
 <body class="m-0 newColor">
@@ -16,27 +16,32 @@
 
   <main class="container">
 
-    <div class="album-container-container">
       <div class="album-container">
         <!-- the albumn covers will be dynamically created here -->
 
       </div>
-    </div>
 
+    <div class="row albumn-playtime-contain">
 
-
-    <div class="row albumn-info-contain">
-      <div class="albumn-info">
-        <!-- the albumn info will be populated here -->
+      <div class="col album-itself">
+        Add trakcs from: 
+        <!-- this is for the albumn info -->
       </div>
+      <div class="col albumn-tracks">
+        <!-- this is for the tracks of the albumn -->
+      </div>
+      <div class="col actual-playlist">
+        <!-- this is for the actual playlist -->
+      </div>
+
     </div>
 
     <div class="row ofBUttons">
       <a class="btn btn-info btn-lg m-3 trackpage" href=# role="button" id="clear">clear tracks</a>
       <a class="btn btn-info btn-lg m-3 trackpage" href=# role="button" id="submitBin">submit bin</a>
-      <a class="btn btn-info btn-lg m-3 trackpage" href="index.html
-
-      " role="button">return to home</a>
+      <a class="btn btn-info btn-lg m-3 trackpage" href="index.html" role="button">home</a>
+      <a class="btn btn-info btn-lg m-3 trackpage" href="stretch.html" role="button">go to stretch</a>
+      <a class="btn btn-info btn-lg m-3 trackpage" href="trackPage.html" role="button">go to tracks</a>
     </div>
 
 
@@ -50,7 +55,7 @@
   </footer> <!-- end of bottom part -->
 
 
-  <script type="text/javascript" src="script2.js">  </script>
+  <script type="text/javascript" src="script3.js">  </script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </body>
 
